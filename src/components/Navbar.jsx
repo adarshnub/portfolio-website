@@ -1,5 +1,6 @@
 import React ,{useState} from 'react';
-import logo from "../assets/logo.png";
+//import logo from "../assets/logo.png";
+import logo from "../assets/icon7.gif";
 import {FaBars ,FaTimes ,FaGithub ,FaLinkedin} from "react-icons/fa";
 import {HiOutlineMail} from "react-icons/hi";
 import { BsFillPersonLinesFill} from "react-icons/bs";
@@ -14,9 +15,9 @@ const Navbar = () => {
     }
 
   return (
-    <div className="fixed w-full h-[80px] text-gray-300 flex justify-between items-center px-4 bg-[#0a192f]">
-        <div>
-            <img src={logo} alt="logo " className="w-[50px]" />
+    <div className="fixed w-full h-[80px] text-gray-300 flex justify-between items-center px-4 bg-[#0a4e5c]">
+        <div className="pt-4">
+            <img src={logo} alt="logo " className="w-[70px] mb-4" />
         </div>
 
         {/*menu*/}
@@ -60,7 +61,7 @@ const Navbar = () => {
         
 
         {/*hamburger icon*/}
-        <div onClick={handleClick} className="md:hidden z-30 cursor-pointer">
+        <div onClick={handleClick} className="md:hidden z-50 cursor-pointer">
             {!nav ? <FaBars /> : <FaTimes />}
         </div>
 
