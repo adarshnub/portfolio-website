@@ -5,7 +5,7 @@ import React from 'react';
 
 const Home = () => {
   return ( 
-    <div className="w-full h-screen bg-[#107c91]">
+    <div name='home' className="w-full h-screen bg-[#107c91]">
 
        
         
@@ -18,7 +18,7 @@ const Home = () => {
             <h2 className="text-4xl sm:text-6xl text-gray-700 font-bold py-4">I'm a Frontend developer</h2>
             <p className="text-gray-700 py-4 max-w-[700px]">I'm a Frontend developer specializing in building and constantly
                 designing exceptional React websites. Currently, i'm focused on
-                building responsive react applications
+                building responsive react applications and learning scalable api creation and handling tools.
             </p>
             <div className="">
                 <a href="/" className="relative inline-flex items-center  justify-center p-4 px-6 py-3 overflow-hidden font-bold text-indigo-600 transition duration-300 ease-out border-2 border-purple-500 rounded-full shadow-md group">

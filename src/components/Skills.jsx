@@ -13,7 +13,7 @@ const Skills = () => {
         {/*container*/}
         <div classname="max-w-[1000px] mx-auto py-4 flex flex-col justify-center px-8 h-full">
             <div className="sm:text-center pl-8">
-                <p className="text-4xl py-2 font-bold inline border-b-4 border-purple-500">Skills</p>
+                <p className="text-4xl py-2 font-bold inline border-b-4 border-purple-500 text-gray-300">Skills</p>
                 <p className="py-4">These are the technologies I have worked with</p>
             </div>
             {/*container for all skills icons*/}
