@@ -77,7 +77,7 @@ const Navbar = () => {
         </div>
 
         {/*Mobile menu*/}
-        <ul className={!nav ? "hidden" : "absolute  top-0 right-0 w-1/4 h-screen z-20 bg-[#0a4e5c] bg-opacity-40 flex flex-col pt-24 items-center mr-[-140px] hover:mr-[10px] duration-300 md:hidden"}>
+        <ul className={!nav ? "hidden" : "absolute  top-0 right-0 w-1/4 h-screen z-20 bg-[#0a4e5c] bg-opacity-40 flex flex-col pt-24 items-center sm:mr-[-140px] sm:hover:mr-[10px] duration-300 md:hidden"}>
                 <li className="py-4 text-xl hover:font-bold hover:text-purple-500">
                     <Link  to="home" smooth={true}  duration={500}  >Home  </Link>
                 </li>
