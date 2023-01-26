@@ -42,3 +42,19 @@
     50% { border-color: orange }
   }
   
+
+  .content-div {
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    height:250px;
+  }
+
+  .content-div:hover {
+      background-image: linear-gradient(
+      to right,
+      rgba(32.2%,82.7%,92.5%,0.5),
+      hsla(190.2,80.4%,20%,0.5)
+    )!important;
+
+  }
