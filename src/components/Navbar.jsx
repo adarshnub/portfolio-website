@@ -77,12 +77,16 @@ const Navbar = () => {
         </div>
 
         {/*Mobile menu*/}
-        <ul className={!nav ? "hidden" : "absolute  top-0 left-0 w-full h-screen z-20 bg-[#0a192f] flex flex-col justify-center items-center lg:hidden"}>
-                <li className="py-6 text-4xl hover:font-bold hover:text-purple-500">Home</li>
-                <li className="py-6 text-4xl hover:font-bold hover:text-purple-500">About</li>
-                <li className="py-6 text-4xl hover:font-bold hover:text-purple-500">Skills</li>
-                <li className="py-6 text-4xl hover:font-bold hover:text-purple-500">Works</li>
-                <li className="py-6 text-4xl hover:font-bold hover:text-purple-500">Contact</li>
+        <ul className={!nav ? "hidden" : "absolute  top-0 right-0 w-1/4 h-screen z-20 bg-[#0a4e5c] bg-opacity-40 flex flex-col pt-24 items-center mr-[-140px] hover:mr-[10px] duration-300 md:hidden"}>
+                <li className="py-4 text-xl hover:font-bold hover:text-purple-500">
+                    <Link  to="home" smooth={true}  duration={500}  >Home  </Link>
+                </li>
+                <li className="py-4 text-xl hover:font-bold hover:text-purple-500">
+                    <Link  to="about" smooth={true}  duration={500} >About  </Link>
+                </li>
+                <li className="py-4 text-xl hover:font-bold hover:text-purple-500"><Link  to="skills" smooth={true}  duration={500} >Skills  </Link></li>
+                <li className="py-4 text-xl hover:font-bold hover:text-purple-500"><Link  to="works" smooth={true}  duration={500} >Works  </Link></li>
+                <li className="py-4 text-xl hover:font-bold hover:text-purple-500"><Link  to="contact" smooth={true}  duration={500} >Contact  </Link></li>
         </ul>
 
 
