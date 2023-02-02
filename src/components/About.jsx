@@ -14,7 +14,7 @@ const About = () => {
                 <p>Hi, I'm Adarsh, nice to meet you. Please take a look around.</p>
               </div>
               <div>
-                <p>As a frontend developer with a strong background in HTML, CSS, JavaScript, React, and Tailwind, I have a proven track record of creating visually stunning and intuitive web applications. My experience with these technologies allows me to build responsive, mobile-friendly designs and implement dynamic user interactions. I am always looking for new ways to improve the user experience and stay up-to-date with the latest web development trends. I am a highly motivated and results-driven developer who is committed to delivering high-quality projects on time and within budget. </p>
+                <p>As a frontend developer with a strong background in HTML, CSS, JavaScript, React, and Tailwind and actively learning backend tools like MongoDB-Mongoose-express-Apollo-GraphQL based scalable API creating and handling, I have a proven track record of creating visually stunning and intuitive web applications. My experience with these technologies allows me to build responsive, mobile-friendly designs and implement dynamic user interactions. I am always looking for new ways to improve the user experience and stay up-to-date with the latest web development trends. I am a highly motivated and results-driven developer who is committed to delivering high-quality projects on time and within budget. </p>
               </div>
             </div>
             </div>
